@@ -15,7 +15,7 @@ class Seed
         :age => rand(1..15),
         :gender => Faker::Creature::Dog.gender
       )
-      puts "Pet #{i}: type is #{pet.type} and name is '#{pet.name}'."
+      puts "Pet #{i}: type is #{pet.type} and name is '#{pet.name}' and age is '#{pet.age}' and gender is '#{pet.gender}'."
     end
   end
 end
