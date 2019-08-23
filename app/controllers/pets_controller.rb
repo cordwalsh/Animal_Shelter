@@ -1,6 +1,6 @@
 class PetsController < ApplicationController
   def index
-    @pets = {"Dog": "Henry"}
+    @pets = {"dog": "Henry"}
     json_response(@pets)
   end
 
